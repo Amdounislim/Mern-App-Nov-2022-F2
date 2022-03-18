@@ -17,7 +17,7 @@ app.use("/api/users", user)
 connectDB()
 
 // 1 - run server
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 7000
 app.listen(port, err => {
     err ? console.log(err) : console.log(`The server is running on http://localhost:${port}`)
 })
